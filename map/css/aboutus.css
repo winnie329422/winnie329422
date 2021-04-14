@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.dis1 {
+  display: flex;
+  justify-content: center, top;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+
+}
+
+.icon {
+  display: flex;
+  justify-content: left;
+  position: relative;
+}
+
+.con {
+  width: 40px;
+  margin: 5px 10px 5px 5px;
+}
+
+.con2 {
+  width: 45px;
+  margin: 5px 0px 5px 5px;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.tho {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgb(221, 208, 92);
+}
+
+.dis2 {
+  padding: 10px;
+}
+
+.name {
+  padding: 10px 0px;
+  text-align: center;
+  border: dashed;
+  width: 410px;
+  color: azure;
+}

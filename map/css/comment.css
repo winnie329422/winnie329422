@@ -1,0 +1,42 @@
+.f {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1500px;
+}
+
+.vi {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.form {
+  word-wrap: break-word;
+  background-color: peachpuff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.formbutton {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formbutton1 {
+  width: 150px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: lightcoral;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+
+.formbutton1:hover {
+  background-color: rgb(240, 146, 146);
+  border: solid 1px black;
+  cursor: pointer;
+}

@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.mapimg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1500px;
+  align-items: center;
+}
+
+/*小圖設定*/
+.a {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -395px;
+  margin-top: -720px;
+}
+
+.b img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -840px;
+  margin-top: -600px;
+}
+
+.c img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -444px;
+  margin-top: -500px;
+}
+
+.d img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -444px;
+  margin-top: -590px;
+}
+
+.e img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -404px;
+  margin-top: -610px;
+}
+
+.f img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -384px;
+  margin-top: -660px;
+}
+
+.g img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -254px;
+  margin-top: -450px;
+}
+
+.h img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -384px;
+  margin-top: -700px;
+}
+
+.i img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -274px;
+  margin-top: -620px;
+}
+
+.j img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -320px;
+  margin-top: -800px;
+}
+
+.k img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -400px;
+  margin-top: -760px;
+}
+
+.l img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -440px;
+  margin-top: -760px;
+}
+
+.m img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -480px;
+  margin-top: -710px;
+}
+
+.n img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -570px;
+  margin-top: -730px;
+}
+
+.o img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -620px;
+  margin-top: -750px;
+}
+
+.p img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -675px;
+  margin-top: -770px;
+}
+
+.q img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -625px;
+  margin-top: -800px;
+}
+
+.r img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -785px;
+  margin-top: -800px;
+}
+
+.s img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -885px;
+  margin-top: -800px;
+}
+
+.t img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -830px;
+  margin-top: -640px;
+}
+
+.u img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -770px;
+  margin-top: -620px;
+}
+
+.v img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -720px;
+  margin-top: -650px;
+}
+
+.w img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -675px;
+  margin-top: -620px;
+}
+
+.x img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -575px;
+  margin-top: -620px;
+}
+
+.y img {
+  width: 380px;
+  padding: -3px;
+  display: none;
+  position: relative;
+  left: 85%;
+  margin-left: -672px;
+  margin-top: -620px;
+}
+
+/*地圖hover後設定*/
+.aaa:hover img {
+  display: block;
+}
+
+.b area:hover~img {
+  display: block;
+}
+
+.c area:hover~img {
+  display: block;
+}
+
+.d area:hover~img {
+  display: block;
+}
+
+.e area:hover~img {
+  display: block;
+}
+
+.f area:hover~img {
+  display: block;
+}
+
+.g area:hover~img {
+  display: block;
+}
+
+.h area:hover~img {
+  display: block;
+}
+
+.i area:hover~img {
+  display: block;
+}
+
+.j area:hover~img {
+  display: block;
+}
+
+.k area:hover~img {
+  display: block;
+}
+
+.l area:hover~img {
+  display: block;
+}
+
+.m area:hover~img {
+  display: block;
+}
+
+.n area:hover~img {
+  display: block;
+}
+
+.o area:hover~img {
+  display: block;
+}
+
+.p area:hover~img {
+  display: block;
+}
+
+.q area:hover~img {
+  display: block;
+}
+
+.r area:hover~img {
+  display: block;
+}
+
+.s area:hover~img {
+  display: block;
+}
+
+.t area:hover~img {
+  display: block;
+}
+
+.u area:hover~img {
+  display: block;
+}
+
+.v area:hover~img {
+  display: block;
+}
+
+.w area:hover~img {
+  display: block;
+}
+
+.x area:hover~img {
+  display: block;
+}
+
+.y area:hover~img {
+  display: block;
+}

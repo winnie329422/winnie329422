@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica;
+  margin: 2px;
+  background-image: url(../images/galaxy3.jpg);
+}
+
+
+
+.header {
+  background: url(../images/galaxy4.jpg);
+
+  width: 100%;
+  height: 163px;
+  padding: 15px;
+  text-align: left;
+  margin: 5px 2px;
+
+}
+
+.header>h2 {
+  font-size: 45px;
+  color: white;
+  letter-spacing: 2cm;
+  font-family: "微軟正黑體";
+  text-shadow: 2px 3px 1px #FF0000, 2px 1px 1px#fdce32;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 3px;
+  font-size: 23px;
+}
+
+.button>a {
+  list-style-image: none;
+  border-bottom-style: yellow 2px dashed;
+  background-color: honeydew;
+  letter-spacing: 5px;
+}
+
+ul>a:hover {
+  background-color: plum;
+  outline: rgb(25, 173, 25) dashed thick;
+  font-style: italic;
+  font-size: 28px;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 2, 213);
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: rgb(17, 255, 223);
+}
+
+.page {
+  float: left;
+
+
+  margin-left: 10px;
+}
+
+.content>p {
+  position: absolute;
+  top: 232px;
+  right: 70px;
+  width: 800px;
+  height: 300px;
+  word-wrap: break-word;
+  float: right;
+  background-color: peachpuff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
+  background-size: cover;
+  font-size: 36px;
+  border: dotted rgb(240, 42, 42) thick;
+  border-radius: 10px 5px;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 0.2cm;
+  line-height: 1.5cm;
+  padding: 2px;
+
+}
+
+.footer {
+  background-color: #3C405B;
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #9EBAC5;
+  text-align: center;
+}
