@@ -38,6 +38,7 @@
 .photo {
   width: 250px;
   border-radius: 10%;
+  border: solid 2px lightgray;
 }
 
 .tho {
