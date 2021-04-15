@@ -5,7 +5,7 @@
 body {
   font-family: Arial, Helvetica;
   margin: 2px;
-  background-color:#CBA6C3;
+  background-color: #CBA6C3;
 }
 
 
@@ -41,7 +41,7 @@ body {
 .button>a {
   list-style-image: none;
   border-bottom-style: yellow 2px dashed;
-  background-color:#FFBC42;
+  background-color: #FFBC42;
   letter-spacing: 5px;
 }
 
@@ -73,20 +73,17 @@ a:active {
 }
 
 .page {
-  float: left;
-
-
-  margin-left: 1px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin: 0px 20px 50px 50px;
 }
 
 .content>p {
-  position: absolute;
-  top: 242px;
-  right: 70px;
-  width: 750px;
-  height: 285px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
   word-wrap: break-word;
-  float: right;
   background-color: peachpuff;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -99,7 +96,7 @@ a:active {
   font-weight: bold;
   letter-spacing: 0.2cm;
   line-height: 1.5cm;
-  /* padding: 2px; */
+  margin-right: 50px;
 
 }
 
@@ -115,12 +112,15 @@ a:active {
   background-color: #AAABD3;
   text-align: center;
 }
-.cen{
+
+.cen {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  margin-left: -5cm;
-  
-  padding: 3px;
+  justify-content: space-around;
+}
 
+.homepageF {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
