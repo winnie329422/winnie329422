@@ -101,10 +101,11 @@ a:active {
 }
 
 .footer {
+  display:flex;
   background-color: #3C405B;
   width: 100%;
   height: 60px;
-  margin-top: 50px;
+  margin: 0px;
   position: fixed;
   bottom: 0;
   left: 0;
