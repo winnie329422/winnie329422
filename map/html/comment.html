@@ -26,37 +26,48 @@
 
     </ul>
   </div>
-  <div class="vi">
-    <div>
-      <iframe width="900" height="506.25" src="https://www.youtube.com/embed/aaBRljRTEtI" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+  <div style="display:flex; justify-content: center;">
+    <div class="vi">
+      <div>
+        <p class="commentvideotitle">花絮</p>
+      </div>
+      <div>
+        <iframe width="900" height="506.25" src="https://www.youtube.com/embed/aaBRljRTEtI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
   </div>
   <div class="f">
-    <div class="form">
-      <form method="post">
-        <fieldset>
-          <legend style="font-size: 24px; font-weight: bold;">意見調查</legend>
-          <ol>
-            <li>您是否覺得地圖介紹對您有幫助?
-              <input type="radio" name="helpful" value="非常有幫助">非常有幫助
-              <input type="radio" name="helpful" value="一點點幫助">一點點幫助
-              <input type="radio" name="helpful" value="我覺得還好">我覺得還好
-              <input type="radio" name="helpful" value="沒有幫助">沒有幫助</li>
-            <li> 您是否滿意這份地圖介紹?
-              <input type="radio" name="sas" value="滿意">滿意
-              <input type="radio" name="sas" value="普通">普通
-              <input type="radio" name="sas" value="不滿意">不滿意</li>
-            <li>請闡述你對此地圖的期望或改進的建議:<br><textarea rows="5" cols="70"></textarea></li>
-          </ol>
-
-        </fieldset>
-      <div class="formbutton">
-          <input class="formbutton1" type="submit" value="送出" action="mailto:winnie329422@gmail.com?subject=我的意見" enctype="text/plain">
-        <input class="formbutton1" type="reset" value="重寫">
+    <div class="outsideform">
+      <div>
+        <p class="commentvideotitle">對於我們的地圖有什麼想法呢?</p>
       </div>
-	  </form>
+      <div class="form">
+        <form method="post" action="mailto:winnie329422@gmail.com?subject=我的意見" enctype="text/plain">
+          <fieldset>
+            <legend style="font-size: 24px; font-weight: bold;">意見調查</legend>
+            <ol>
+              <li>您是否覺得地圖介紹對您有幫助?
+                <input type="radio" name="helpful" value="1">非常有幫助
+                <input type="radio" name="helpful" value="2">一點點幫助
+                <input type="radio" name="helpful" value="3">我覺得還好
+                <input type="radio" name="helpful" value="4">沒有幫助</li>
+              <li> 您是否滿意這份地圖介紹?
+                <input type="radio" name="sas" value="1">滿意
+                <input type="radio" name="sas" value="2">普通
+                <input type="radio" name="sas" value="3">不滿意</li>
+              <li>請闡述你對此地圖的期望或改進的建議:<br><textarea name="suggetion" rows="5" cols="70"></textarea></li>
+            </ol>
+
+          </fieldset>
+          <div class="formbutton">
+            <input class="formbutton1" type="submit" value="送出">
+            <input class="formbutton1" type="reset" value="重寫">
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </body>

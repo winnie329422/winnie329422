@@ -7,9 +7,20 @@
 
 .vi {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin: auto;
   margin-bottom: 15px;
+}
+
+.commentvideotitle {
+  font-weight: bold;
+  font-size: 35px;
+  border-bottom: black 2px solid;
+}
+
+.outsideform {
+  display: flex;
+  flex-direction: column;
 }
 
 .form {

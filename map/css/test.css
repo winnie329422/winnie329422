@@ -5,13 +5,93 @@
   text-decoration: none;
 }
 
-
 .mapimg {
   display: flex;
   justify-content: center;
   margin: auto;
   width: 1500px;
   align-items: center;
+}
+
+.introformap {
+  font-size: 32px;
+  color: rgb(70, 69, 69);
+  margin-top: 30px;
+  font-weight: bold;
+  width: 1500px;
+
+}
+
+.titleforphoto {
+  font-size: 45px;
+  font-weight: bolder;
+  width: 1500px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid black;
+}
+
+.annotationformap {
+  font-size: 32px;
+  color: rgb(70, 69, 69);
+  text-shadow: gray 2px 2px 5px;
+  border-top: 3px solid black;
+  width: 1500px;
+  padding-top: 30px;
+}
+
+.moreintroa-1:visited {
+  color: rgb(128, 32, 32)
+}
+
+.moreintroa-1:hover {
+  color: lightpink;
+  font-weight: bold;
+}
+
+.moreintroa-1:active {
+  color: red;
+}
+
+.moreintroa:visited {
+  color: rgb(128, 32, 32)
+}
+
+.moreintroa:hover {
+  color: lightpink;
+  font-weight: bold;
+}
+
+.moreintroa:active {
+  color: red;
+}
+
+.moreintro {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  color: rgb(71, 71, 71);
+  width: 400px;
+  margin: 20px 45px;
+  font-weight: bold;
+}
+
+.moreintrophoto {
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 10px solid rgb(243, 113, 113);
+}
+
+.moreintrophoto-1 {
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 10px solid rgb(243, 113, 113);
+}
+
+.moreintrophoto:hover {
+  box-shadow: lightslategray 3px 3px 12px;
 }
 
 /*小圖設定*/
