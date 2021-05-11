@@ -1,0 +1,610 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 50px;
+  background-color: #ccd3d9;
+
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #e6eff3; */
+
+}
+
+
+
+.topRight {
+  display: flex;
+  flex-direction: column;
+  animation: moving 1.5s linear forwards;
+}
+
+@keyframes moving {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  70% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blabla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  border-radius: 10px;
+  background-color: #fed5d9;
+}
+
+.blaword {
+  margin-top: 60px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  font-size: 100px;
+  color: #7e212c;
+  font-family: 'FZYaoTi',
+    'Mangal',
+    'Times New Roman';
+}
+
+.QuoteAndWord {
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 180px;
+  /* background-color: #634330; */
+  /* border: solid 1px white; */
+  font-size: 35px;
+}
+
+.myphotodiv {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: solid 1px white; */
+}
+
+.iconfb {
+  padding-top: 20px;
+  padding-right: 8px;
+  width: 75px;
+  opacity: 0.8;
+}
+
+.iconfb:hover {
+  opacity: 1;
+  filter: drop-shadow(1px 2px 5px rgb(167, 167, 167))
+}
+
+.iconig {
+  padding-top: 23px;
+  padding-right: 10px;
+  width: 72px;
+  opacity: 0.8;
+}
+
+.iconig:hover {
+  opacity: 1;
+  filter: drop-shadow(1px 2px 5px rgb(167, 167, 167))
+}
+
+.iconmail {
+  padding-top: 27px;
+  width: 63px;
+  opacity: 0.8;
+}
+
+.iconmail:hover {
+  opacity: 1;
+  filter: drop-shadow(1px 2px 5px rgb(167, 167, 167))
+}
+
+.icondiv {
+  display: flex;
+}
+
+.phonecall {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.iconphone {
+
+  width: 45px;
+  height: 45px;
+}
+
+.phonenumber {
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.myphoto {
+  margin-bottom: 20px;
+  width: 320px;
+  border-radius: 50%;
+}
+
+.location {
+  width: 45px;
+}
+
+.where {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.title {
+  /* width: 250px; */
+  margin-top: 40px;
+  font-size: 35px;
+  /* padding-top: 20px; */
+  padding-bottom: 10px;
+}
+
+.Iamcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centercontent {
+  display: flex;
+  justify-content: center
+}
+
+.skillSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 50px;
+  width: 680px;
+  border-right: dotted 2px gray;
+  margin-right: 30px;
+}
+
+
+.work {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  width: 680px;
+  /* height: 800px; */
+}
+
+.footer {
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  background-color: #ccd3d9;
+}
+
+@keyframes bar1 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes bar2 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes bar3 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes bar4 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes bar5 {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 60%;
+  }
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+/* skillbar進度條，給program */
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skillTitle {
+  padding-top: 18px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.java {
+  animation: bar1 2s ease;
+  background-color: #ad404d;
+  width: 80%;
+  padding-right: 6px;
+  border-radius: 20px;
+}
+
+.c {
+  animation: bar2 2s ease;
+  width: 70%;
+  background-color: #ad404d;
+  padding-right: 6px;
+  border-radius: 20px;
+}
+
+.mysql {
+  animation: bar3 2s ease;
+  width: 90%;
+  background-color: #ad404d;
+  padding-right: 6px;
+  border-radius: 20px;
+}
+
+.python {
+  animation: bar4 2s ease;
+  width: 50%;
+  background-color: #ad404d;
+  padding-right: 6px;
+  border-radius: 20px;
+}
+
+.htmlCSS {
+  animation: bar5 2s ease;
+  width: 60%;
+  background-color: #ad404d;
+  padding-right: 6px;
+  border-radius: 20px;
+}
+
+/* 時間軸，for工作經驗 */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  z-index: -1;
+  position: relative;
+  max-width: 597px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  margin-left: -3px;
+}
+
+.contain {
+  padding: 10px 40px;
+  position: relative;
+  /* background-color: lightcoral; */
+  width: 100%;
+}
+
+.contain::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 580px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+  color: rgb(216, 216, 216);
+  padding: 20px 30px;
+  width: 600px;
+  max-height: fit-content;
+  background-color: #a5705f;
+  position: relative;
+  border-radius: 6px;
+}
+
+.year {
+  font-size: 31px;
+  margin-bottom: 22px;
+  font-weight: bold;
+}
+
+.company {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.job {
+  font-size: 25px;
+  margin: 25px 0px;
+}
+
+/* skillcircle內除了circle本身外的東西 */
+.precent {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.wearecircle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillimg {
+  width: 80px;
+}
+
+.skillimg:hover {
+  filter: drop-shadow(1px 3px 5px gray)
+}
+
+/* buttomcontent 社團、專案、球隊 */
+.buttomcontent {
+  width: 1360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clubphotoslide {
+  width: 1500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.photoss {
+  width: 580px;
+  height: 400px;
+}
+
+.photoss div {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  animation: round 10s linear infinite;
+}
+
+@keyframes round {
+  10% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+  }
+
+  50% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  60% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+  }
+}
+
+.photoss div:nth-child(2) {
+  animation-delay: 0s;
+}
+
+.photoss div:nth-child(1) {
+  animation-delay: 5s;
+}
+
+.bcphoto {
+  width: 580px;
+  border-radius: 10px;
+}
+
+.bcphoto2 {
+  width: 580px;
+  border-radius: 10px;
+}
+
+.clubitem {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(245, 202, 171); */
+  padding: 50px 0px;
+  /* border-radius: 10px; */
+}
+
+.clubtitle {
+  font-size: 30px;
+}
+
+.clubnar {
+  width: 600px;
+  background-color: #fed5d9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 20px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.forbutton {
+  display: flex;
+}
+
+.clubbutton {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  background-color: rgb(255, 169, 138);
+  border: white;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.clubbutton:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(255, 152, 115);
+}
+
+.pro {
+  padding-top: 8px;
+}
+
+.accordion {
+  background-color: #fed5d9;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgb(187, 117, 117);
+}
+
+.panel {
+  padding: 30px 18px 15px 18px;
+  display: none;
+  background-color: #eee;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.panel img {
+  width: 500px;
+  margin-left: 80px;
+  border: solid 1px gray;
+  border-radius: 5px;
+
+}
+
+.panel img:hover {
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.panel div {
+  margin-right: 80px;
+  width: 600px;
+  float: right;
+}
+
+.panel p {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.top,
+.Iamcontent {
+  position: relative;
+  animation: animate 2s;
+  animation-direction: alternate;
+}
+
+
+@keyframes animate {
+  from {
+    left: -10px;
+    opacity: 0.3;
+  }
+
+  to {
+    left: 0px;
+    opacity: 1;
+  }
+}
