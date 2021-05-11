@@ -592,7 +592,7 @@
 .top,
 .Iamcontent {
   position: relative;
-  animation: animate 2s;
+  animation: animate 1.5s;
   animation-direction: alternate;
 }
 
