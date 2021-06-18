@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/admin_AddGoods.css">
+  <title>玩童後台</title>
+</head>
+
+<body>
+  <div class="ALL">
+    <!-- 後台header開始 -->
+    <div id="main">
+      <div class="topnav">
+        <div class="myTopnav">
+          <div class="imgNav" style="padding: 20px;">
+            <a style="margin: 0px 30px;" href="admin_goods.html">修改/刪除商品</a>
+            <a style="margin: 0px 40px;" href="admin_AddGoods.html" class="active">新增商品</a>
+            <a style="margin: 0px 30px;" href="admin_order.html">看看訂單</a>
+            <input style="padding: 5px 15px; font-size: 15px; margin-top: -1px;" type="submit" value="登出">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 後台header結束 -->
+    <table>
+      <!-- 如果編號是使用AI，下面第一個tr就不用了 -->
+      <tr>
+        <td>編號</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>名稱</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>圖片</td>
+        <td class="choose">
+          <div>
+            <input id="input_file1_1" class="input_file midden" type="file" required>
+            <img id="img_file1_1" src="assets/images/choose.png">
+          </div>
+
+          <div>
+            <input id="input_file1_2" class="input_file midden" type="file" required>
+            <img id="img_file1_2" src="assets/images/choose.png">
+          </div>
+
+          <div>
+            <input id="input_file1_3" class="input_file midden" type="file" required>
+            <img id="img_file1_3" src="assets/images/choose.png">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>價格</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>摘要</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>庫存</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>類別</td>
+        <td><select name="type">
+            <option value="switch">
+              switch
+            </option>
+            <option value="PS5">
+              PS5
+            </option>
+            <option value="Xbox">
+              Xbox
+            </option>
+          </select></td>
+      </tr>
+    </table>
+    <input type="submit" value="新增" />
+  </div>
+</body>
+
+</html>

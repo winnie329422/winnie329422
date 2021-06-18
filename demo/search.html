@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+  <link rel="stylesheet" text="text/css" href="assets/css/allgoods.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/header.js"></script>
+  <title>玩童</title>
+</head>
+
+<body>
+  <!-- 登入/註冊表單 開始-->
+  <div id="id01" class="modal ">
+    <div class="animate" style="display: flex; justify-content: center;">
+      <form class="modal-content " action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="關閉此視窗">&times;</span>
+          <p style="font-size: 25px;">請先登入</p>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>帳號(電子郵件)</b></label>
+          <input type="text" placeholder="請輸入電子郵件" name="uname" required>
+
+          <label for="psw"><b>密碼</b></label>
+          <input type="password" placeholder="請輸入密碼" name="psw" required>
+
+          <button type="submit">登入</button>
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">取消</button>
+          <img src="assets/images/welcomTo-removebg-preview.png" alt="welcome">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="id02" class="modal ">
+    <div class="animate" style="display: flex; justify-content: center;">
+      <form class="modal-content " action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close"
+            title="關閉此視窗">&times;</span>
+          <p style="font-size: 25px;">新會員? 請先註冊</p>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>姓名</b></label>
+          <input type="text" placeholder="請輸入姓名" name="uname" required>
+          <div class="congender">性別
+            <input type="radio" name="gender" value="girl" class="rr" checked>女
+            <input type="radio" name="gender" value="boy" class="rr">男
+          </div>
+          <div style="width: 100%;">
+            <label for="birth"><b>生日</b></label>
+            <input type="date" name="birth">
+          </div>
+          <label for="phonenum"><b>手機號碼</b></label>
+          <input type="tel" placeholder="請輸入電話" name="phonenum" required>
+          <span><b>地址</b></span>
+          <input type="text" placeholder="請輸入地址" required>
+          <label for="mail"><b>電子信箱</b></label>
+          <input type="email" name="mail" placeholder="請輸入你的電子信箱" required>
+          <label for="psw"><b>密碼</b></label>
+          <input type="password" placeholder="請輸入密碼" name="psw" required>
+
+          <button type="submit">註冊</button>
+          <button type="button" onclick="document.getElementById('id02').style.display='none'"
+            class="cancelbtn">取消</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- 登入/註冊表單 結束 -->
+
+  <div class="ALL">
+    <!-- header選單開始 -->
+    <div id="main">
+      <div class="topnav">
+        <div class="myTopnav">
+          <div class="imgNav">
+            <a href="index.html"><img src="assets/images/theme.png" alt="玩童"></a>
+            <a href="allgoods.html" class="active"><img src="assets/images/ps5.png">PS5</a>
+            <a href="allgoods.html"><img src="assets/images/switch.png" style="margin-right: 2px;">switch</a>
+            <a href="allgoods.html"><img src="assets/images/xbox.png" style="margin-right: -10px;">Xbox</a>
+            <a href="aboutus.html"><img src="assets/images/team.png" style="width: 52px;margin-right: 5px;">About us</a>
+          </div>
+          <div class="MemCartSearch">
+            <div class="MemberCart">
+              <!-- 尚未登入就顯示下面兩個button，不顯示下面的 -->
+              <button onclick="document.getElementById('id01').style.display='block'">登入</button>
+              <button>/</button><button onclick="document.getElementById('id02').style.display='block'">註冊</button>
+              <div class="dropdown">
+                <!-- 已登入就顯示下面的button，不顯示上面的 -->
+                <button style="padding: 0%;" class="dropbtn"><img style="cursor: pointer;" src="assets/images/user.png">
+                </button>
+                <div class="dropdown-content">
+                  <a href="member.html">會員中心</a>
+                  <!-- 這邊是登出 -->
+                  <form action="">
+                    <input type="submit" value="登出" class="logout">
+                  </form>
+                </div>
+              </div>
+              <a href="car.html" style="padding: 0%;"><img style="cursor: pointer;"
+                  src="assets/images/shopping-cart.png"></a>
+            </div>
+            <div class="search-container">
+              <form action="/action_page.php" style="display: flex; align-items: center; justify-content: flex-end;">
+                <input type="text" class="searchText" placeholder="Search.." name="search">
+                <button type="submit"><img src="assets/images/search.png" width="15px"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header選單結束 -->
+    <!-- 內文開始 -->
+    <div class="mainHost">
+      <h1>搜尋結果</h1>
+      <!-- 有找到商品 -->
+      <div class="LotOfGood">
+        <div class="Agood" onclick="location.href='good.html'">
+          <div class="sameHeight"><img src="assets/images/lite-1-1.jpg" alt="switch lite" style="width:100%"></div>
+          <h2>Nintendo Switch Lite 黃色</h2>
+          <p class="price">NT$ 6000</p>
+        </div>
+        <div class="Agood" onclick="location.href='good.html'">
+          <div class="sameHeight"><img src="assets/images/lite-2-1.jpg" alt="switch lite" style="width:100%"></div>
+          <h2>Nintendo Switch Lite 珊瑚色</h2>
+          <p class="price">NT$ 6000</p>
+        </div>
+        <div class="Agood" onclick="location.href='good.html'">
+          <div class="sameHeight"><img src="assets/images/lite-3-1.jpg" alt="switch lite" style="width:100%"></div>
+          <h2>Nintendo Switch Lite 藍色</h2>
+          <p class="price">NT$ 6150</p>
+        </div>
+      </div>
+      <!-- 沒找到商品 -->
+      <img style="width: 60%;" src="assets/images/NoSearch.JPG">
+    </div>
+    <div class="footer">
+      <p>已瀏覽人數：100 人</p>
+      <p>版權所有© 2021 玩童</p>
+    </div>
+  </div>
+  <div class="contact">
+    <div>
+      <a href="mailto:amanda090988@gmail.com">
+        <img src="assets/images/frog.png" class="frog">
+      </a>
+    </div>
+  </div>
+  <!-- 解決照片非方形問題 高度會等同寬度 用line-height=height使圖片垂直置中 -->
+  <!-- <script>
+    var cw = $('.sameHeight').width();
+    $('.sameHeight').css({
+      'height': cw + '%'
+    });
+    $('.sameHeight').css({
+      'line-height': cw + 'px'
+    });
+  </script> -->
+</body>
+
+</html>
