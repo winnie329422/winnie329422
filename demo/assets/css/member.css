@@ -445,3 +445,7 @@
   align-items: center;
   /* border: tan 2px solid; */
 }
+
+.commentTime {
+  font-size: 16px;
+}

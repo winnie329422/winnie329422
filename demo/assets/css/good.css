@@ -338,3 +338,9 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.commentTime {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 20px;
+}
